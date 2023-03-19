@@ -1,0 +1,139 @@
+nav {
+    width: 100%;
+    top: 0;
+    height: 10%;
+    z-index: 1000;
+    background-color: rgb(228, 243, 255);
+    box-shadow: 1px 1px 2px 1px rgb(236, 236, 236);
+}
+
+nav .navbar-brand {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+nav .nav-items {
+    font-size: 1.5rem;
+}
+
+#home {
+    align-items: center;
+    background-color: rgb(239, 248, 255);
+}
+
+
+#home .profile-img img {
+    height: 300px;
+    box-shadow: 2px 3px 2px 3px rgb(241, 241, 241);
+}
+
+#about .about-text {
+    font-size: 1.1rem;
+    width: 80%;
+    margin: auto;
+}
+
+i {
+    font-size: 1.8rem;
+    color: black;
+    margin-left: 5px;
+}
+
+#education .card {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    border: none;
+    margin: auto;
+    background-color: rgb(239, 248, 255);
+    border-radius: 1rem;
+}
+
+#education .card i {
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+#education .card .cont {
+    width: 90%;
+    margin: auto;
+    padding: 1rem;
+    align-items: center;
+}
+
+#education {
+    background-color: rgb(239, 248, 255);
+}
+
+#skills i {
+    font-size: 2.8rem;
+}
+
+#skills img {
+    color: black;
+
+}
+
+#skills .card {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: 1rem;
+    align-items: center;
+    border: none;
+    border-radius: 1rem;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1.2rem;
+    transition: all 500ms ease;
+    box-shadow: 1px 1px 5px 1px rgb(236, 236, 236);
+    background-color: rgb(239, 248, 255);
+}
+
+#skills .card:hover {
+    scale: 1.03;
+}
+
+#projects {
+    background-color: rgb(239, 248, 255);
+}
+
+#projects .card {
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    height: 22vw;
+    margin-bottom: 1.2rem;
+    justify-content: end;
+    border: none;
+    box-shadow: 1px 1px 5px 1px rgb(236, 236, 236);
+}
+
+#projects .card .desc {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+
+#contact .container {
+    width: 60%;
+    margin: auto;
+}
+
+#contact .contact-list {
+    display: flex;
+    gap: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+#contact .contact-list a {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    background-color: rgb(11, 98, 165);
+    color: white;
+    margin-top: 2rem;
+    height: 50px;
+}
